@@ -4,8 +4,8 @@ import cv2
 import face_recognition
 import numpy as np
 from time import sleep
-
-print("Created by yousef")
+from art import *
+tprint("Created    by    yousef")
 def get_encoded_faces():
     """
     looks through the faces folder and encodes all
